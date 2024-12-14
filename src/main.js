@@ -20,6 +20,7 @@ import Order from './components/orders/Order.vue'
 import OrderSingle from './components/orders/OrderSingle.vue'
 import ImportPage from './components/import/ImportPage.vue'
 import Database from './components/database/Database.vue'
+import Routes from './components/routes/Routes.vue'
 const darkTheme = {
     dark: true,
     colors: {
@@ -61,6 +62,10 @@ const router = createRouter({
         {
             path: '/import',
             component: ImportPage
+        },
+        {
+            path: '/routes',
+            component: Routes
         },
         {
             path: '/orders',

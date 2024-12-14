@@ -188,7 +188,7 @@ export default {
 
 <template>
   <loading v-if="loading" />
-  <div v-else-if="userStore.user">
+  <div v-else-if="true">
     <v-alert
       class="v-alert"
       border="top"
