@@ -1,0 +1,15 @@
+{
+    "source": {
+        "include": [
+            "src"
+        ],
+        "includePattern": ".(jsx|js|ts|tsx)$",
+        "exclude": [
+            "node_modules"
+        ]
+    },
+    "opts": {
+        "destination": "./docs",
+        "recurse": true
+    }
+}

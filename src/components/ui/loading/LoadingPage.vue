@@ -1,0 +1,13 @@
+<template>
+    <v-container-fluid>
+        <v-row>
+          <v-col>
+            <v-progress-circular
+              :size="50"
+              color="var(--accent-two)"
+              indeterminate
+            ></v-progress-circular>
+          </v-col>
+        </v-row>
+    </v-container-fluid>
+</template>
